@@ -1,0 +1,5 @@
+@url=http://localhost:3001/api
+
+### 获取所有文章
+get {{url}}/articles
+Content-Type: application/json
