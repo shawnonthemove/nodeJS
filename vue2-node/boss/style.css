@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html, body {
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  width: 100%;
+}
+.header {
+  width: 100%;
+  position: relative;
+}
+.header > img {
+  width: 100%;
+}
+.header > form {
+  width: 90%;
+  position: absolute;
+  bottom: 35px;
+  border-radius: 30px;
+  background: #fff;
+  left: 50%;
+  transform: translate(-50%);
+}
+.header > form > input {
+  height: 30px;
+  width: 80%;
+  border: none;
+  position: relative;
+  left: 20px;
+}
+.header > form > input:focus {
+  border: none;
+  outline: none;
+}
+.header > form > button {
+  height: 30px;
+  border: none;
+  background: #fff;
+  position: absolute;
+  right: 15px;
+  top: 0;
+  color: #5dd5c8;
+}
+.content {
+  width: 100%;
+}
+.content > dl {
+  width: 100%;
+  padding: 15px 20px;
+}
+.content > dl > dt {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.content > dl > dt > img {
+  width: 50px;
+  border-radius: 50%;
+}
+.content > dl > dt > h4 {
+  margin-left: 20px;
+}
+.content > dl > dd {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between; */
+  margin-top: 15px;
+}
+.content > dl > dd > a {
+  height: 30px;
+  text-decoration: none;
+  color: black;
+  background-color: rgba(240, 240, 240, 0.5);
+  font-family: 'Times New Roman', Times, serif;
+  padding: 5px 15px;
+  border-radius: 15px;
+  display: inline-block;
+  margin-bottom: 8px;
+  margin-right: 5px;
+}
+.content > dl > dd > a:hover {
+  background-color: rgba(240, 240, 240, 1);
+  cursor: pointer;
+}
+.footer {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 0.5rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color:rgba(34, 34, 34, 0.5)
+}
